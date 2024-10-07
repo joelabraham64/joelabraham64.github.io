@@ -5,7 +5,7 @@ permalink: /projects/
 description: Some stuff I am testing or learning more about
 nav: true
 nav_order: 3
-display_categories: [Hardware, Software]
+display_categories: [work, fun]
 horizontal: false
 ---
 
