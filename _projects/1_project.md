@@ -2,9 +2,9 @@
 layout: page
 title: GPU
 description: Basic GPU implementation using FPGA
-img: assets/img/Falstad-Gate-Array.gif
+img: assets/img/Capture.PNG
 importance: 1
-category: Hardware
+category: work
 related_publications: true
 ---
 
