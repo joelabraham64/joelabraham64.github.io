@@ -1,7 +1,9 @@
 github_users:
   - joelabraham64
+  - jh3899
 
 repo_description_lines_max: 2
 
 github_repos:
   - joelabraham64/pipe-bomb
+  - jh3899/mentorship-2022
