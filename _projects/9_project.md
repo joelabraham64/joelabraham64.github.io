@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 9
-description: another project with an image 🎉
+title: ETA to work
+description: using google maps api able to send emails/reminders of when to leave for work based on current traffic.
 img: assets/img/6.jpg
 importance: 4
 category: Software
