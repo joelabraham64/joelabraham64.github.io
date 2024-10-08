@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 4
-description: another without an image
+title: Spellchecker
+description: Using hashing functions to read large text files through implmentation of binary seach trees
 img:
 importance: 4
 category: Software
