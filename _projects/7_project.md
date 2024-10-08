@@ -4,7 +4,7 @@ title: lights out
 description: with background image
 img: assets/img/4.jpg
 importance: 7
-category: Hardware
+category: Software
 related_publications: true
 ---
 
