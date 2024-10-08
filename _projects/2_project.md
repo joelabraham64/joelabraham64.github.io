@@ -4,7 +4,7 @@ title: Fourier-Transform
 description: Implementaion of Fourier Transform using FPGA
 img: assets/img/DAFC.jpeg
 importance: 2
-category: work
+category: Hardware
 giscus_comments: true
 ---
 
