@@ -4,7 +4,7 @@ title: Matrix Multiplication
 description: Exploiting paralellism for higher efficiency
 img: assets/img/screenshot_121.webp
 importance: 2
-category: work
+category: Hardware
 giscus_comments: true
 ---
 
