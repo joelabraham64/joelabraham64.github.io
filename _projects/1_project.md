@@ -4,7 +4,7 @@ title: GPU
 description: Basic GPU implementation using FPGA
 img: assets/img/Capture.PNG
 importance: 1
-category: work
+category: Hardware
 related_publications: true
 ---
 
