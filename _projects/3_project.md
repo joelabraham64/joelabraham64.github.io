@@ -5,7 +5,7 @@ description: A working 16-bit computer with risc-v and pipelining enabled
 img: assets/img/7.jpg
 redirect: https://unsplash.com
 importance: 3
-category: work
+category: Hardware
 ---
 
 Every project has a beautiful feature showcase page.
