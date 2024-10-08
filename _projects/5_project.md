@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
+title: Sliding Puzzle
+description: Implementing Dijkstra and the A* slgorithm to calculate shortest paths to get to final state.
 img: assets/img/1.jpg
 importance: 3
 category: Software
