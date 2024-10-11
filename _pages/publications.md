@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: Papers
 description: Papers I think are intresting and worth a read.
-nav: true
+nav: false
 nav_order: 2
 ---
 
