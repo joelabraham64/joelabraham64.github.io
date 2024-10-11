@@ -4,7 +4,7 @@ title: 16-bit Computer
 description: A working 16-bit computer with risc-v and pipelining enabled
 img: assets/img/7.jpg
 redirect: https://unsplash.com
-importance: 3
+importance: 1
 category: Hardware
 ---
 
