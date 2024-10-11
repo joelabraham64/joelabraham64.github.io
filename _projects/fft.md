@@ -3,7 +3,7 @@ layout: page
 title: Fourier-Transform
 description: Implementaion of Fourier Transform using FPGA
 img: assets/img/DAFC.jpeg
-importance: 2
+importance: 4
 category: Hardware
 giscus_comments: true
 ---
