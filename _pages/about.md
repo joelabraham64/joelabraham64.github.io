@@ -17,8 +17,9 @@ social: true
 
 <img src="/assets/img/ChefJA-logo.png"
      alt="Joel Abraham Logo"
-     class="invert-on-dark"
+     style="filter: invert(100%);"
      width="110">
+
 
 
 Hi! My name is Joel Abraham, and I am an Electrical and Computer Engineer who studied at Drexel University.
