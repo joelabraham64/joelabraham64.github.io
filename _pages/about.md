@@ -21,7 +21,7 @@ social: true
      width="110">
 
 
-Hi! My name is Joel Abraham, and I am a senior Electrical and Computer Engineering undergraduate student at Drexel University.
+Hi! My name is Joel Abraham, and I am an Electrical and Computer Engineer who studied at Drexel University.
 
 My primary focus is in **computer hardware**, with particular interests in **computer architecture** and **ASIC/VLSI design**. I enjoy working at low levels of system design, where performance, power efficiency, and hardware trade-offs are defined.
 
