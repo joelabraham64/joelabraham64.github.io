@@ -3,10 +3,10 @@ layout: page
 title: GPU
 description: Basic GPU implementation using FPGA
 img: assets/img/Capture.PNG
-importance: 3
+importance: -1
 category: Hardware
 related_publications: true
-published: false
+
 
 ---
 
