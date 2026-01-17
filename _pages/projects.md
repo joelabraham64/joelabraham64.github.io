@@ -2,7 +2,7 @@
 layout: page
 title: My Projects
 permalink: /projects/
-description: Some stuff I am testing or learning more about
+description: This is a page dedicated to projects I am currently or have worked on in the past with direct links to the respositories for you to check out. 
 nav: true
 nav_order: 1
 display_categories: [Hardware, Software]
