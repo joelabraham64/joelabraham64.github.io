@@ -3,6 +3,9 @@ layout: about
 title: about
 permalink: /
 subtitle: 
+<p align="center">
+  <img src="/assets/img/ChefJA-logo.png" alt="Joel Abraham Logo" width="120">
+</p>
 
 profile:
   align: right
