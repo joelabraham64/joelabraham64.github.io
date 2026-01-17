@@ -6,6 +6,8 @@ img: assets/img/DAFC.jpeg
 importance: 4
 category: Hardware
 giscus_comments: true
+published: false
+
 ---
 
 Every project has a beautiful feature showcase page.
