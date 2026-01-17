@@ -14,7 +14,7 @@ The **Pseudo Lights Out Game** is a console-based application written in C, insp
 
 The program simulates a house composed of multiple windows, each represented by a binary on/off state. Users interact with the system through single-character keyboard input, toggling individual windows while the application continuously updates and displays the current system state.
 
-Unlike the traditional *Lights Out* game, this implementation does not include neighbor-based toggling or a win condition. Instead, it serves as a foundational state-machine framework that emphasizes clean control flow, input validation, and maintainable code structure.
+Unlike the traditional *Lights Out* game, this implementation does not include neighbor-based toggling. Instead, it functions as a deterministic state machine in which each window is toggled independently.
 
 ---
 
@@ -22,11 +22,45 @@ Unlike the traditional *Lights Out* game, this implementation does not include n
 
 The application is organized into multiple source and header files to enforce **separation of concerns**:
 
-- **Input handling** is abstracted into a dedicated module to ensure safe, predictable user interaction.
-- **Window logic** is encapsulated using structured data types and helper functions.
-- **House-level state management** coordinates window behavior and system updates.
+- `main.c` – Program control loop and user interaction  
+- `house.c / house.h` – House-level state management  
+- `window.c / window.h` – Individual window state and toggle logic  
+- `ezinput.c / ezinput.h` – Single-character, validated user input handling  
 
-This modular approach improves readability, maintainability, and extensibility, and closely mirrors real-world software design practices used in systems and embedded programming.
+This modular design improves readability, maintainability, and extensibility, and mirrors real-world software practices used in systems and embedded programming.
+
+---
+
+## Game States
+
+### Initial State
+
+At program startup, a subset of windows is enabled, resulting in the following initial configuration:
+
+*(Insert screenshot or ASCII rendering of the initial state here)*
+
+---
+
+### Winning Input Sequence
+
+While the program does not explicitly enforce a win condition in code, a “solved” state can be interpreted as all windows being turned off.
+
+For the default starting configuration, the system reaches this solved state by toggling the following windows:
+
+**Winning input sequence:**
+4, 5, 7, 8, 9
+
+Each input toggles the corresponding window’s state.
+
+---
+
+### Final State
+
+After applying the winning input sequence, all windows are turned off, resulting in the following final configuration:
+
+*(Insert screenshot or ASCII rendering of the final state here)*
+
+The program continues running until the user exits by entering `0`.
 
 ---
 
@@ -41,13 +75,4 @@ This modular approach improves readability, maintainability, and extensibility, 
 
 ---
 
-## Potential Extensions
-
-This project provides a strong foundation for future enhancements, including:
-- Grid-based neighbor toggling (full *Lights Out* mechanics)
-- Win condition detection
-- Dynamic configuration of system size
-- Embedded-style input/output adaptation
-
----
 
