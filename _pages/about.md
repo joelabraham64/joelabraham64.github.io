@@ -15,9 +15,11 @@ selected_papers: false
 social: true
 ---
 
-<p align="center">
-  <img src="/assets/img/ChefJA-logo.png" alt="Joel Abraham Logo" width="120">
-</p>
+<img src="/assets/img/ChefJA-logo.png"
+     alt="Joel Abraham Logo"
+     class="invert-on-dark"
+     width="110">
+
 
 Hi! My name is Joel Abraham, and I am a senior Electrical and Computer Engineering undergraduate student at Drexel University.
 
