@@ -3,7 +3,7 @@ layout: page
 title: Pseudo Lights Out Game
 description: A modular, state-based C program inspired by the Lights Out puzzle
 img: assets/img/initial_state.jpg
-importance: 7
+importance: 4
 category: Software
 related_publications: false
 ---
