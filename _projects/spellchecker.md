@@ -7,7 +7,7 @@ importance: 4
 category: Software
 ---
 **Source Code:**  
-[View the project on GitHub](https://github.com/joelabraham/spellchecker)
+[View the project on GitHub](https://github.com/joelabraham64/spellchecker)
 
 ## Overview
 
