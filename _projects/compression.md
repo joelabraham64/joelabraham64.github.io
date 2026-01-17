@@ -7,6 +7,9 @@ importance: 4
 category: Software
 ---
 
+**Source Code:**  
+[View the project on GitHub](https://github.com/joelabraham/lights_out)
+
 ## Overview
 
 This project implements a **run-length encoding (RLE) compression algorithm** in C and pairs it with a Python-based analysis script to study and visualize compression behavior. The goal is to explore fundamental data compression techniques, sequential data processing, and the trade-offs between compression efficiency and input characteristics.
