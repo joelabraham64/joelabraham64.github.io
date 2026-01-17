@@ -3,7 +3,7 @@ layout: page
 title: Compression
 description: Run-Length Encoding (RLE) Compression and Analysis
 img: assets/img/rle.jpg
-importance: 4
+importance: 2
 category: Software
 ---
 
