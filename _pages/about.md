@@ -23,5 +23,4 @@ Hey there! My name is Joel Abraham and I am a senior Electrical and Computer Eng
 I'm always eager to discover new opportunities to learn and connect with like-minded individuals. Feel free to reach out to me, and enjoy exploring the rest of my page!  
  [Linkedin](https://www.linkedin.com/in/joel-abraham-a7281b1ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)  
  [Resume](assets/pdf/Joel_Abraham_2026.pdf)
-[LinkedIn](https://www.linkedin.com/in/joel-abraham-a7281b1ba)  
-<a href="assets/pdf/Joel_Abraham_2026.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+
