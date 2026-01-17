@@ -19,8 +19,14 @@ social: true # includes social icons at the bottom of the page
 
 
 
-Hey there! My name is Joel Abraham and I am a senior Electrical and Computer Engineering undergraduate student studying at Drexel University. My main focus is in computer hardware with a particular intrest in **computer architechture** and **ASIC/VLSI Design**. I love learning about the design of computers and systems from a low level prespective. Some other thigns about me, I love to cook, play volleyball, and hike. 
-I'm always eager to discover new opportunities to learn and connect with like-minded individuals. Feel free to reach out to me, and enjoy exploring the rest of my page!  
- [Linkedin](https://www.linkedin.com/in/joel-abraham-a7281b1ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)  
- [Resume](assets/pdf/Joel_Abraham_2026.pdf)
+Hi! My name is Joel Abraham, and I am a senior Electrical and Computer Engineering undergraduate student at Drexel University.
+
+My primary focus is in **computer hardware**, with particular interests in **computer architecture** and **ASIC/VLSI design**. I enjoy working at low levels of system design, where performance, power efficiency, and hardware trade-offs are defined.
+
+Outside of engineering, I enjoy cooking, playing volleyball, and hiking.
+
+I am always eager to learn, collaborate, and connect with like-minded individuals. Feel free to reach out, and enjoy exploring the rest of my page!
+
+[LinkedIn](https://www.linkedin.com/in/joel-abraham-a7281b1ba)  
+<a href="assets/pdf/Joel_Abraham_2026.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
 
