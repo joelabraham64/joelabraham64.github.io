@@ -8,7 +8,7 @@ category: Software
 related_publications: false
 ---
 **Source Code:**  
-[View the project on GitHub](https://github.com/joelabraham/lights_out)
+[View the project on GitHub](https://github.com/joelabraham64/lights_out)
 
 ## Overview
 
