@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: image.jpg
+  image: profile_picture.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>(267) 210-8738</p>
