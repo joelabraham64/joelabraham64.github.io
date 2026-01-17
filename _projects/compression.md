@@ -52,11 +52,3 @@ This separation of implementation (C) and analysis (Python) reflects a realistic
 - Separation of algorithm implementation and performance analysis  
 
 ---
-
-## Potential Extensions
-
-This project provides a foundation for future improvements, including:
-- Decoding support for full compression/decompression pipelines
-- Compression ratio analysis for different input patterns
-- Comparison with other lossless compression techniques
-- Integration of analysis directly with compressed output files
