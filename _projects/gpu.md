@@ -6,6 +6,8 @@ img: assets/img/Capture.PNG
 importance: 3
 category: Hardware
 related_publications: true
+published: false
+
 ---
 
 Every project has a beautiful feature showcase page.
