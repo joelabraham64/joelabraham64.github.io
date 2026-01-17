@@ -15,8 +15,9 @@ selected_papers: false
 social: true
 ---
 
-
-
+<p align="center">
+  <img src="/assets/img/ChefJA-logo.png" alt="Joel Abraham Logo" width="120">
+</p>
 
 Hi! My name is Joel Abraham, and I am a senior Electrical and Computer Engineering undergraduate student at Drexel University.
 
@@ -27,5 +28,4 @@ Outside of engineering, I enjoy cooking, playing volleyball, and hiking.
 I am always eager to learn, collaborate, and connect with like-minded individuals. Feel free to reach out, and enjoy exploring the rest of my page!
 
 [LinkedIn](https://www.linkedin.com/in/joel-abraham-a7281b1ba)  
-<a href="assets/pdf/Joel_Abraham_2026.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
-
+<a href="/assets/pdf/Joel_Abraham_2026.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
