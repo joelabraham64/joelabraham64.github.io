@@ -65,7 +65,7 @@ The program continues running until the user exits by entering `0`.
 
 ---
 **Source Code:**  
-[View the project on GitHub](https://github.com/joelabraham/pseudo-lights-out-c)
+[View the project on GitHub](https://github.com/joelabraham/lights_out)
 
 
 ## Skills Demonstrated
