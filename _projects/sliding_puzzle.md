@@ -3,7 +3,7 @@ layout: page
 title: Sliding Puzzle
 description: Implementing Dijkstra and the A* slgorithm to calculate shortest paths to get to final state.
 img: assets/img/1.jpg
-importance: -1
+importance: 1
 category: Software
 published: false
 ---
