@@ -5,6 +5,8 @@ description: using google maps api able to send emails/reminders of when to leav
 img: assets/img/6.jpg
 importance: 4
 category: Software
+published: false
+
 ---
 
 Every project has a beautiful feature showcase page.
