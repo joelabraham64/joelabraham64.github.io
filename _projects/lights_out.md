@@ -37,7 +37,8 @@ This modular design improves readability, maintainability, and extensibility, an
 
 At program startup, a subset of windows is enabled, resulting in the following initial configuration:
 
-*(Insert screenshot or ASCII rendering of the initial state here)*
+![Initial State](/assets/img/initial_state.png)
+
 
 ---
 
@@ -58,7 +59,7 @@ Each input toggles the corresponding window’s state.
 
 After applying the winning input sequence, all windows are turned off, resulting in the following final configuration:
 
-*(Insert screenshot or ASCII rendering of the final state here)*
+![Initial State](/assets/img/final_state.png)
 
 The program continues running until the user exits by entering `0`.
 
