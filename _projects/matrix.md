@@ -6,6 +6,8 @@ img: assets/img/screenshot_121.webp
 importance: 2
 category: Hardware
 giscus_comments: true
+published: false
+
 ---
 
 Every project has a beautiful feature showcase page.
