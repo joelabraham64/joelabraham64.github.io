@@ -5,6 +5,7 @@ description: Implementing Dijkstra and the A* slgorithm to calculate shortest pa
 img: assets/img/1.jpg
 importance: -1
 category: Software
+published: false
 ---
 
 Every project has a beautiful feature showcase page.
