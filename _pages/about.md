@@ -2,23 +2,19 @@
 layout: about
 title: about
 permalink: /
-subtitle: 
-<p align="center">
-  <img src="/assets/img/ChefJA-logo.png" alt="Joel Abraham Logo" width="120">
-</p>
-
+subtitle:
 profile:
   align: right
   image: profile_picture.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
     <p>(267) 210-8738</p>
     <p>Philadelphia, PA</p>
-
-news: false # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+news: false
+selected_papers: false
+social: true
 ---
+
 
 
 
