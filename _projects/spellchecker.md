@@ -3,7 +3,7 @@ layout: page
 title: Spell Checker
 description: Dictionary-based spell checker implemented in C using hash tables
 img: assets/img/spellcheck.png
-importance: 4
+importance: 3
 category: Software
 ---
 **Source Code:**  
