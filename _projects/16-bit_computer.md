@@ -1,87 +1,79 @@
 ---
 layout: page
-title: 16-bit Computer
-description: A working 16-bit computer with risc-v and pipelining enabled
+title: RISC-V Pipelined Datapath
+description: Software implementation of a simplified RISC-V pipelined datapath and execution model
 img: assets/img/7.jpg
-redirect: https://unsplash.com
 importance: 1
 category: Hardware
 ---
 **Source Code:**  
-[View the project on GitHub](https://github.com/joelabraham64/16bit_computer)
+[View the project on GitHub](https://github.com/joelabraham64/RISC-V_Pipelined_Datapath)
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-Description:  
-Constraints:  
-Testing:  
-Output:  
+This project implements a **simplified RISC-V–style pipelined datapath** in software, designed to model and explore the internal behavior of a processor core. The focus is on understanding how instructions move through the classic pipeline stages—**fetch, decode, execute, memory access, and writeback**—and how architectural components interact at each step.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Rather than targeting a complete or production-ready RISC-V implementation, this project emphasizes **clarity of datapath design**, control flow, and instruction execution semantics.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+---
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Architecture
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+The design models key components of a RISC-V–inspired processor, including:
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+- Program counter (PC) and instruction fetch logic  
+- Instruction decoding and control signal generation  
+- Register file with 32 general-purpose registers  
+- Arithmetic and logic unit (ALU)  
+- Simplified data memory interface  
+- Sequential execution through pipelined-style stages  
 
-{% raw %}
+Each stage is implemented explicitly in software to reflect how data and control signals propagate through a real processor datapath.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+---
 
-{% endraw %}
+## Instruction Support
+
+The processor supports a **subset of the RISC-V ISA**, including:
+- Basic arithmetic and logical operations  
+- Immediate instructions  
+- Load and store operations  
+- Conditional branching  
+
+This limited instruction set allows focused experimentation with datapath behavior without the added complexity of a full ISA.
+
+---
+
+## Goals and Learning Outcomes
+
+This project was developed to:
+- Reinforce understanding of **CPU datapath and control design**
+- Explore how pipelining improves instruction throughput conceptually
+- Bridge the gap between **ISA-level execution** and **microarchitectural implementation**
+- Gain hands-on experience modeling hardware behavior in software
+
+---
+
+## Constraints and Scope
+
+- The implementation is a **software model**, not a synthesizable hardware core  
+- Only a subset of RISC-V instructions is supported  
+- Advanced features such as forwarding, hazard resolution, exceptions, and interrupts are not implemented  
+
+These constraints keep the design approachable while still capturing the core architectural ideas.
+
+---
+
+## Testing and Validation
+
+The datapath is tested using small instruction sequences to verify:
+- Correct register updates  
+- Proper memory access behavior  
+- Accurate control flow for branches  
+- Correct progression through pipeline stages  
+
+---
+
+## Summary
+
+This project provides a clear and educational look into how a RISC-V–style processor operates internally. By modeling the datapath and pipeline stages explicitly, it serves as a foundation for deeper exploration into processor design, pipelining, and computer architecture.
