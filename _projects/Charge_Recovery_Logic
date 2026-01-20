@@ -1,80 +1,14 @@
 ---
 layout: page
-title: RISC-V Pipelined Datapath
-description: Software implementation of a simplified RISC-V pipelined datapath and execution model
+title: Charge Recovery Logic ECRL Design
+description: 
 img: assets/img/7.jpg
-importance: 2
+importance: 1
 category: Hardware
 ---
 **Source Code:**  
-[View the project on GitHub](https://github.com/joelabraham64/RISC-V_Pipelined_Datapath)
+[View the project on GitHub](https://github.com/joelabraham64/ECRL)
 
 ## Overview
 
-This project implements a **simplified RISC-V–style pipelined datapath** in software, designed to model and explore the internal behavior of a processor core. The focus is on understanding how instructions move through the classic pipeline stages—**fetch, decode, execute, memory access, and writeback**—and how architectural components interact at each step.
-
-Rather than targeting a complete or production-ready RISC-V implementation, this project emphasizes **clarity of datapath design**, control flow, and instruction execution semantics.
-
----
-
-## Architecture
-
-The design models key components of a RISC-V–inspired processor, including:
-
-- Program counter (PC) and instruction fetch logic  
-- Instruction decoding and control signal generation  
-- Register file with 32 general-purpose registers  
-- Arithmetic and logic unit (ALU)  
-- Simplified data memory interface  
-- Sequential execution through pipelined-style stages  
-
-Each stage is implemented explicitly in software to reflect how data and control signals propagate through a real processor datapath.
-
----
-
-## Instruction Support
-
-The processor supports a **subset of the RISC-V ISA**, including:
-- Basic arithmetic and logical operations  
-- Immediate instructions  
-- Load and store operations  
-- Conditional branching  
-
-This limited instruction set allows focused experimentation with datapath behavior without the added complexity of a full ISA.
-
----
-
-## Goals and Learning Outcomes
-
-This project was developed to:
-- Reinforce understanding of **CPU datapath and control design**
-- Explore how pipelining improves instruction throughput conceptually
-- Bridge the gap between **ISA-level execution** and **microarchitectural implementation**
-- Gain hands-on experience modeling hardware behavior in software
-
----
-
-## Constraints and Scope
-
-- The implementation is a **software model**, not a synthesizable hardware core  
-- Only a subset of RISC-V instructions is supported  
-- Advanced features such as forwarding, hazard resolution, exceptions, and interrupts are not implemented  
-
-These constraints keep the design approachable while still capturing the core architectural ideas.
-
----
-
-## Testing and Validation
-
-The datapath is tested using small instruction sequences to verify:
-- Correct register updates  
-- Proper memory access behavior  
-- Accurate control flow for branches  
-- Correct progression through pipeline stages  
-
----
-
-## Summary
-
-This project provides a clear and educational look into how a RISC-V–style processor operates internally. By modeling the datapath and pipeline stages explicitly, it serves as a foundation for deeper exploration into processor design, pipelining, and computer architecture.
-
+This project implements a 
