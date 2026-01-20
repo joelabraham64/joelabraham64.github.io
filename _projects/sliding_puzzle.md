@@ -6,6 +6,8 @@ img: assets/img/maze.jpg
 importance: 1
 category: Software
 ---
+**Source Code:**  
+[View the project on GitHub](https://github.com/joelabraham64/sliding_puzzle)
 
 ## Overview
 
@@ -19,7 +21,7 @@ The page below presents a side-by-side comparison highlighting how each algorith
 
   <!-- Left column: Dijkstra -->
   <div class="col-md-6 mt-3">
-    <h3>Dijkstra’s Algorithm (Uniform-Cost Search)</h3>
+    <h3>Dijkstra’s Algorithm</h3>
 
     <p>
       Dijkstra’s algorithm treats each puzzle configuration as a node in a graph
