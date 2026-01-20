@@ -2,7 +2,7 @@
 layout: page
 title: Search Algorithms
 description: Comparing Dijkstra’s and A* algorithms for solving the sliding tile puzzle (N-puzzle)
-img: assets/img/1.jpg
+img: assets/img/maze.jpg
 importance: 1
 category: Software
 ---
