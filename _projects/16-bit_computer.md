@@ -7,6 +7,8 @@ redirect: https://unsplash.com
 importance: 
 category: Hardware
 ---
+**Source Code:**  
+[View the project on GitHub](https://github.com/joelabraham64/16bit_computer)
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
