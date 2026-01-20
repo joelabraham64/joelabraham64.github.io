@@ -3,7 +3,7 @@ layout: page
 title: GPU Prototype
 description: Ongoing project building a basic parallel GPU-style accelerator on the iCEstick iCE40 FPGA
 img: assets/img/Capture.PNG
-importance: -1
+importance: 5
 category: Hardware
 related_publications: false
 ---
