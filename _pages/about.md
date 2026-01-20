@@ -8,8 +8,10 @@ profile:
   image: profile_picture.jpg
   image_circular: false
   more_info: >
-  <p style="text-align: center;">(267) 210-8738</p>
-<p style="text-align: center;">Philadelphia, PA</p>
+  <p>contact info:</p>
+  <p>(267) 210-8738</p>
+  <p>joel.abraham64@outlook.com</p>
+    <p>Philadelphia, PA</p>
 
 news: false
 selected_papers: false
