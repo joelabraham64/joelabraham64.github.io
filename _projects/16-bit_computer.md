@@ -3,7 +3,7 @@ layout: page
 title: RISC-V Pipelined Datapath
 description: Software implementation of a simplified RISC-V pipelined datapath and execution model
 img: assets/img/7.jpg
-importance: 1
+importance: 2
 category: Hardware
 ---
 **Source Code:**  
