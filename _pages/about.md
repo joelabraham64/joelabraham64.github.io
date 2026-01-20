@@ -8,8 +8,9 @@ profile:
   image: profile_picture.jpg
   image_circular: false
   more_info: >
-    <p>(267) 210-8738</p>
-    <p>Philadelphia, PA</p>
+  <p style="text-align: center;">(267) 210-8738</p>
+<p style="text-align: center;">Philadelphia, PA</p>
+
 news: false
 selected_papers: false
 social: true
