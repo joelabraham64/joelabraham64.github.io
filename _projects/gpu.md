@@ -1,87 +1,80 @@
 ---
 layout: page
-title: GPU
-description: Basic GPU implementation using FPGA
+title: GPU Prototype
+description: Ongoing project building a basic parallel GPU-style accelerator on the iCEstick iCE40 FPGA
 img: assets/img/Capture.PNG
 importance: -1
 category: Hardware
-related_publications: true
+related_publications: false
+---
 
+## Overview
+
+This is an **ongoing hardware project** focused on building a **very basic GPU-style accelerator** on the **iCEstick (iCE40 FPGA)**. The main goal is to explore how GPU-like speedups come from **parallelization**, even with limited FPGA resources, by running many small processing elements in parallel on the same workload.
+
+Rather than targeting a full graphics pipeline, this project is centered around designing a minimal, educational “GPU core” that demonstrates the core ideas behind GPUs: **SIMD/SIMT-style execution, parallel compute units, and high-throughput operations**.
 
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Project Goals
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-Description:  
-Constraints:  
-Testing:  
-Output:  
+- Implement a small set of **parallel compute lanes** (processing elements) on the iCE40
+- Create a simple **instruction/control model** (broadcast control with lane-level execution)
+- Build a lightweight **memory interface** suitable for small test workloads
+- Demonstrate measurable speedup vs. a single-lane design on FPGA
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+## Architecture (Work in Progress)
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+Planned high-level blocks:
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+- **Controller / Dispatcher**  
+  Issues operations to multiple compute lanes in parallel (GPU-like “warp” control at a very small scale)
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+- **Parallel Compute Lanes**  
+  Multiple identical ALU-style units that run the same operation across different data elements
 
-{% raw %}
+- **On-chip Memory / Buffers**  
+  Simple scratchpad-style buffers for storing inputs/outputs (within iCE40 constraints)
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+- **Output / Verification Interface**  
+  A basic way to inspect results (UART and/or LED/debug signals depending on the build)
 
-{% endraw %}
+---
+
+## Constraints
+
+The iCEstick iCE40 platform is intentionally resource-limited, so this project emphasizes:
+- Small, efficient RTL blocks
+- Careful tradeoffs between lane count vs. timing/resource usage
+- Simple memory patterns and constrained bandwidth
+- Step-by-step verification before scaling complexity
+
+---
+
+## Testing and Verification
+
+Current / planned verification approach:
+- Unit tests for each lane (ALU ops, registers, control)
+- Small vector workloads to validate parallel correctness
+- Comparison against a software reference model
+- Timing/resource checks after each major feature addition
+
+---
+
+## Output and Demo Plan
+
+Planned demo outputs include:
+- Running small parallel kernels (e.g., vector add, dot product variants, simple image-style operations)
+- Showing correctness via printed/serial output or debug traces
+- Comparing runtime/throughput between:
+  - 1-lane “CPU-like” version
+  - multi-lane “GPU-like” parallel version
+
+---
+
+## Status
+
+**In progress.**  
+This page will be updated as the RTL, testing harness, and demo workloads mature.
